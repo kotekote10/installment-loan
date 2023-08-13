@@ -1,0 +1,420 @@
+.income-container {
+    position:relative;
+    background-color: #e8e8e8;
+    height: 600px;
+    width: 80%;
+    min-width: 610px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.income-form {
+    position: relative;
+    margin: auto;
+    background-color: #cacaca;
+    height:90%;
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.income-title {
+    position:absolute;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+
+.company-position, .salary-bank {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width:80%;
+    height: 5.2em;
+    margin: 3px
+}
+
+.company-position {
+    padding-top: 30px;
+}
+
+.company, 
+.position,
+.salary,
+.bank,
+.debt,
+.add-job,
+.add-income,
+.add-wayofrecieving {
+    height: 2.2em;
+    width: 85%;
+    background-color: #9b9b9b;
+    border: 1px solid #9b9b9b;
+    outline: none;
+}
+
+.debt {
+    width: 100%;
+  
+}
+
+.company:hover, 
+.position:hover,
+.salary:hover,
+.bank:hover,
+.debt:hover,
+.add-job:hover,
+.add-income:hover,
+.add-wayofrecieving:hover {
+    background-color: #c7c7c7;
+    border: 1.8px solid rgb(68, 177, 220);
+}
+
+
+.company:focus, 
+.position:focus,
+.salary:focus,
+.bank:focus,
+.debt:focus,
+.add-job:focus,
+.add-income:focus,
+.add-wayofrecieving:focus {
+    background-color: #d3d3d3;
+    border: 1.8px solid rgb(134, 221, 255);
+}
+
+
+.bank:focus {
+    height: 2.6em;
+    width: 85%;
+    background-color: #d3d3d3;
+    border: 1.8px solid rgb(134, 221, 255);
+}
+
+
+.company-error, 
+.position-error,
+.salary-error,
+.bank-error,
+.debt-error,
+.add-job-error,
+.add-income-error,
+.add-wayofrecieving-error {
+    height: 2.2em;
+    width: 85%;
+    background-color: #9b9b9b;
+    border: 1px solid rgb(200, 93, 93);
+    outline: none;
+    box-shadow:rgb(200, 93, 93) 1px 0px 10px
+}
+
+.debt-error {
+    width: 100%;
+}
+
+.bank-error,
+.add-wayofrecieving-error {
+
+    height: 2.6em;
+    width: 85%;
+    background-color: #9b9b9b;
+    border: 1px solid rgb(200, 93, 93);
+    outline: none;
+    box-shadow:rgb(200, 93, 93) 1px 0px 10px
+}
+
+.add-job-error,
+.add-income-error,
+.add-wayofrecieving-error {
+     width:100%;
+}
+
+.company-error:hover, 
+.position-error:hover,
+.salary-error:hover,
+.bank-error:hover,
+.debt-error:hover,
+.add-job-error:hover,
+.add-income-error:hover,
+.add-wayofrecieving-error:hover {
+    background-color: #c7c7c7;
+    border: 1px solid rgb(200, 93, 93);  
+}
+
+.add-job,
+.add-income,
+.add-wayofrecieving {
+
+    width:100%;
+}
+
+
+.bank {
+    width: 88%;
+    position:relative;
+    height: 2.5em
+}
+
+.add-wayofrecieving  {
+    
+    position:relative;
+    left:0px;
+    width:100%;
+    height: 2.5em
+}
+
+
+.company-container, 
+.position-container,
+.salary-container,
+.bank-container,
+.debt-container,
+.add-job-container,
+.add-income-container,
+.wayofrecieving-container{
+    position: relative;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:80%;
+    height: 5.2em;
+    margin: 3px;
+}
+
+
+
+.add-job-container,
+.add-income-container,
+.wayofrecieving-container{
+    width: 45%;
+    margin-right: 0px;
+}
+
+.add-job-container {
+    width: 98.5%;
+}
+
+.debt-container {
+    width: 45%;
+    padding-left:4px
+}
+
+.company-error-text,
+.position-error-text, 
+.salary-error-text,
+.bank-error-text,
+.debt-error-text,
+.job-error-text,
+.income-error-text,
+.wayofrecieving-error-text {
+    display:block;
+    font-size: small;
+    color: rgb(200, 93, 93);
+    height: 2.5em;
+    width: 100%;
+    text-shadow:rgb(200, 93, 93) 1px 0px 10px;
+   
+}
+
+@media all and (max-width: 1086px){
+    .income-error-text,
+    .salary-error-text {
+        width:200%;
+     }
+    
+
+ }
+
+.income-label {
+    display: block;
+    position: relative;
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 0.7em;
+    top:-2px;
+}
+
+.main-header,
+.add-header {
+    display: block;
+    position: absolute;
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 0.8em;
+    top:-2px;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    width: 60%;
+    text-align: center;
+}
+
+.add-header {
+    top:35%
+}
+
+
+.additional-income-container {
+    position:relative;
+ 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    left: 1px;
+    width:84%;
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-gutter: stable;
+    height: 250px;
+
+}
+
+.add-job-income-container {
+    position:relative;
+    width:99.5%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+
+
+
+.additional-container {
+    position: relative;
+    display:flex;
+    flex-direction: column;   
+    width: 91%; 
+    left:9px;
+
+ 
+}
+
+.add-btn,
+.remove-btn,
+.send-btn,
+.income-goback{
+   
+    position:relative;
+    width: 25%;
+    background-color: #9b9b9b;
+    border: 1px solid #9b9b9b;
+    font-weight: bold;
+}
+
+
+
+
+.send-btn {
+    position: absolute;
+    bottom:2%;
+    right:2%;
+    height: 5%;
+  
+}
+
+.income-goback {
+    position: absolute;
+    border-radius: 50%;
+    top:2%;
+    left:2%;
+    width:2.5em;
+    height:2.5em;
+}
+
+  
+.add-btn:hover,
+.remove-btn:hover,
+.send-btn:hover,
+.income-goback:hover {
+    cursor: pointer;
+    background-color: #7c7c7c;
+}
+
+.add-btn{
+    width: 30%
+}
+
+
+@media all and (max-width: 897px){
+    .add-btn{
+     width:36%
+     }
+    
+
+ }
+.add-btn:active {
+    background-color: rgb(72, 190, 233);
+    box-shadow:rgb(72, 190, 233) 1px 0px 10px;
+    border: none
+}
+.remove-btn:active {
+    background-color: rgb(248, 104, 104) ;
+    box-shadow:rgb(248, 104, 104) 1px 0px 10px;
+    border: none
+}
+
+.send-btn:active {
+    background-color: rgb(114, 255, 161) ;
+    box-shadow:rgb(114, 255, 161) 1px 0px 10px;
+    border: none
+}
+
+.income-goback:active {
+    background-color: rgb(255, 255, 255) ;
+    box-shadow:rgb(255, 255, 255) 1px 0px 10px;
+    border: none
+}
+
+.debt-send {
+    width: 75%;
+    display:flex;
+    justify-content: space-between;
+ 
+
+}
+
+
+@media all and (max-width: 1018px){
+    .send-btn {
+       width:35%
+     }
+    
+
+ }
+
+.income-gel,
+.add-income-gel,
+.debt-income-gel{
+    
+    background-color: transparent;
+    padding: 4px;
+    position: absolute;
+    box-sizing:border-box;
+    top:22%;
+    right: 9%;
+
+    pointer-events: none;
+
+}
+.add-income-gel,
+.debt-income-gel {
+    right: 1%;
+ }
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+.response-container {
+    position:relative;
+    background-color: #e8e8e8;
+    height: 600px;
+    width: 80%;
+    min-width: 610px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loan-info {
+    position: relative;
+    margin: auto;
+    background-color: #cacaca;
+    height:90%;
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+.rejected-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rejected {
+    display:block;
+    align-items: center;
+    
+}
+
+.response-btn {
+    position:absolute;
+    right: 2%;
+    bottom: 2%;
+    width: 20%;
+    height: 5%;
+    background-color: #9b9b9b;
+    border: 1px solid #9b9b9b;
+    font-weight: bold;
+}
+
+
+  
+  .response-btn:hover{
+    cursor: pointer;
+    background-color: #7c7c7c;
+  }
+  
+  .response-btn:active {
+    background-color: rgb(72, 190, 233);
+    box-shadow:rgb(72, 190, 233) 1px 0px 10px;
+    border: none
+}
+
+.final-info {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+}
